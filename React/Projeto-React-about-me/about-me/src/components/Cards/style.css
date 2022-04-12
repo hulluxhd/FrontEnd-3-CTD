@@ -1,0 +1,31 @@
+.projects-cards{
+    display: flex;
+    text-align: center;
+    
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    flex: 0 1 31%;
+
+}
+.projects-cards-text{
+    padding: 15px;
+}
+
+.projects-cards img{
+    width: 100%;
+    height: auto;
+}
+
+.projects-cards a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:1000px) {
+
+    .projects-cards{
+        flex: 0 1 calc(100% - 4em);
+        
+    }
+
+}

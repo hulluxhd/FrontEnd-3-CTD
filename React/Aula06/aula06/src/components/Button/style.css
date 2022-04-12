@@ -1,0 +1,29 @@
+.btn1{
+        background: #00c92c;
+        border: none;
+        padding: 5px;
+        height: 42px;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 0.9375rem;
+        border-radius: 10px;
+        width: 170px;
+}
+
+.btn2{
+    background: transparent;
+    border: 1px solid #00c92c;
+    padding: 5px;
+    height: 42px;
+    color: #00c92c;
+    font-weight: bold;
+    font-size: 0.9375rem;
+    border-radius: 10px;
+    width: 170px;
+}
+
+.header_container{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}

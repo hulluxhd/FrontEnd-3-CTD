@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/*FORM*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    min-height: 100vh;
+    align-items: center;
+    max-width: 400px;
+    justify-content: space-between;
+}
+
+    
+
+
+
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    
+}
+label{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+input{
+    border: 1px solid aqua;
+    height: 50px;
+    padding: 0 15px;
+    border-radius: 9px;
+    margin: 5px 0;
+}
+
+.form-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.form-buttons > button{
+    padding: 10px;
+    min-width: 100px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #FFF;
+    transition: ease 0.3s;
+    
+}
+
+.form-buttons > button:first-child{
+    border: 2px solid blue;
+    background-color: blue;
+}
+
+.form-buttons > button:first-child:hover{
+    background-color: transparent;
+    color:blue;
+}
+.form-buttons > button:last-child{
+    background-color: green;
+    border: 2px solid green;
+}
+
+.form-buttons > button:last-child:hover{
+    background-color: transparent;
+    color: green;
+
+}
+
+/*CARDS*/
+
+.registros{
+    width: 100%;
+    padding: 25px;
+    background-color: rgba(128, 128, 128, 0.116);
+}
+
+ul{
+    list-style: none;
+}
+
+.registros-info{
+    display: flex;
+    flex-direction: column;
+    min-width: 600px
+  
+
+}
+
+
+
+.registros-item{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    padding: 25px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.registros-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.registros-buttons *{
+    cursor: pointer;
+}
+
+
+
+
+
